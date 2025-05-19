@@ -1,7 +1,4 @@
 mountpoints:
-  /:
-    url: https://github.com/vk-adobe/accs-eds/
-    type: markup
-
+  /:https://adobe.sharepoint.com/:f:/r/sites/ACCS-EDS/Shared%20Documents/starter-content-commerce
 folders:
   /products/: /products/default
