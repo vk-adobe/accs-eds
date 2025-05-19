@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "code": {
+    "owner": "vk-adobe",
+    "repo": "accs-eds",
+    "source": {
+      "type": "github",
+      "url": "https://github.com/vk-adobe/accs-eds"
+    }
+  },
+  "content": {
+    "source": {
+      "url": "https://adobe.sharepoint.com/:f:/r/sites/ACCS-EDS/Shared%20Documents/starter-content-commerce?csf=1&web=1&e=nK31lO",
+      "type": "onedrive"
+    }
+  },
+  "folders": {
+    "/products/": "/products/default"
+  },
+  "cdn": {
+    "live": {
+      "host": "main--accs-eds--vk-adobe.aem.live"
+    },
+    "preview": {
+      "host": "main--accs-eds--vk-adobe.aem.page"
+    }
+  },
+  "headers": {},
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://development-q5nzhaa-tj6dwtak3lb2g.us-4.magentosite.cloud/graphql",
+      "commerce-endpoint": "https://catalog-service-sandbox.adobe.io/graphql",
+      "headers": {
+        "all": {
+          "Store": "default"
+        },
+        "cs": {
+          "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "default",
+          "Magento-Website-Code": "base",
+          "x-api-key": "0b8cc49110be4a58806a239dab2062a2",
+          "Magento-Environment-Id": "d95511f4-69ee-4251-b63b-b396e8ea3d1a"
+        }
+      },
+      "analytics": {
+        "base-currency-code": "USD",
+        "environment": "Production",
+        "store-id": "1",
+        "store-name": "Main Website Store",
+        "store-url": "https://development-q5nzhaa-tj6dwtak3lb2g.us-4.magentosite.cloud/",
+        "store-view-id": "1",
+        "store-view-name": "Default Store View",
+        "website-id": "1",
+        "website-name": "Main Website"
+      },
+      "plugins": {
+        "picker": {
+           "rootCategory": "2"
+         }
+      }
+    }
+  },
+  "robots": {
+    "txt": "User-agent: *\nAllow: /\nDisallow: /drafts/\nDisallow: /enrichment/\nDisallow: /tools/\nDisallow: /plugins/experimentation/\n\nSitemap: https://{DOMAIN}/sitemap-index.xml"
+  },
+  "sidekick": {
+    "project": "Boilerplate",
+    "plugins": [
+      {
+        "id": "cif",
+        "title": "Commerce",
+        "environments": [
+          "edit"
+        ],
+        "url": "https://main--accs-eds--vk-adobe.aem.live/tools/picker/dist/index.html",
+        "isPalette": true,
+        "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
+      },
+      {
+        "id": "personalisation",
+        "title": "Personalisation",
+        "environments": [
+          "edit"
+        ],
+        "url": "https://main--accs-eds--vk-adobe.aem.live/tools/segments/dist/index.html",
+        "isPalette": true,
+        "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
+      }
+    ]
+  },
+  "access": {
+    "admin": {
+      "role": {
+        "config_admin": [
+          "vkhandelwal@adobe.com"
+        ]
+      },
+      "requireAuth": "auto"
+    }
+  }
+}
