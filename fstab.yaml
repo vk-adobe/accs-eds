@@ -1,6 +1,6 @@
 mountpoints:
-/:
-    url: https://adobe-my.sharepoint.com/:f:/r/personal/vkhandelwal_adobe_com/Documents/Accs_Eds/starter-content-commerce?csf=1&web=1&e=P6HkF5/
+  /:
+    url: https://github.com/vk-adobe/accs-eds/
     type: markup
 
 folders:
