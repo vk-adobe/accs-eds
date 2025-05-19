@@ -1,7 +1,5 @@
 mountpoints:
-  /:
-    url: https://content.da.live/vk-adobe/accs-eds/
-    type: markup
+  /:https://adobe-my.sharepoint.com/:f:/r/personal/vkhandelwal_adobe_com/Documents/Accs_Eds/starter-content-commerce?csf=1&web=1&e=P6HkF5
 
 folders:
   /products/: /products/default
